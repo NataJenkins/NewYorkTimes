@@ -1,0 +1,37 @@
+.navbar {
+    display: flex;
+    border-bottom: 1px solid #E2E2E2;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    padding: 0 20px 0 10px;
+    height: 45px;
+}
+
+.navbar .left {
+    display: flex;
+}
+
+.navbar .right {
+    display: flex;
+    padding-right: 50px;
+}
+
+.icon {
+    padding-top: 15px;
+    padding-right: 10px;
+}
+
+.navbar button {
+    margin-right: 5px;
+}
+
+button {
+    background-color: rgb(86, 123, 149);
+    color: white;
+    border-radius: 3px;
+    border-style: solid;
+    border-color: rgb(50, 104, 145);
+}
