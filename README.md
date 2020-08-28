@@ -2,7 +2,7 @@
 
 > New york time website clone, using html and css
 
-![screenshot](./app_screenshot.png)
+![screenshot](./Images/preview.jpg)
 
 ## Built With
 
