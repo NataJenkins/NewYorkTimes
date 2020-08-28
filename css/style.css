@@ -1,3 +1,16 @@
+* {
+    background-color: white;
+}
+
+button {
+    background-color: rgb(86, 123, 149);
+    color: white;
+    border-radius: 3px;
+    border-style: solid;
+    border-color: rgb(50, 104, 145);
+}
+
+/************** Navbar Styles **************/
 .navbar {
     display: flex;
     border-bottom: 1px solid #E2E2E2;
@@ -8,6 +21,7 @@
     top: 0;
     padding: 0 20px 0 10px;
     height: 45px;
+
 }
 
 .navbar .left {
@@ -19,7 +33,7 @@
     padding-right: 50px;
 }
 
-.icon {
+.navbar .icon {
     padding-top: 15px;
     padding-right: 10px;
 }
@@ -28,10 +42,175 @@
     margin-right: 5px;
 }
 
-button {
-    background-color: rgb(86, 123, 149);
-    color: white;
-    border-radius: 3px;
-    border-style: solid;
-    border-color: rgb(50, 104, 145);
+/************** Header Styles **************/
+
+header {
+    margin-top: 70px;
+}
+
+h1 {
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: nyt-cheltenham, georgia, times new roman, times, serif;
+    font-style: italic;
+    font-size: 2.5rem;
+    line-height: 3rem;
+}
+
+header span {
+    color: slategray;
+}
+
+header img {
+    width: 75%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+figcaption {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.author {
+    font-weight: bold;
+    color: black;
+}
+
+.author-social {
+    font-family: Helvetica, Arial, sans-serif;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-bottom: 20px;
+    margin-right: auto;
+    width: 33%;
+}
+
+.date-social {
+    display: flex;
+    justify-content: space-between;
+}
+
+a .icon {
+    padding: 5px;
+}
+
+/************** Article Styles **************/
+
+.article {
+    margin-left: auto;
+    margin-right: auto;
+    width: 600px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.article p {
+    font-size: 20px;
+    color: #333;
+    word-spacing: 0.3rem;
+}
+
+.subscribe {
+    text-align: center;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+.ilustration {
+    width: 800px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.ilustration h3 {
+    margin-top: 40px;
+    margin-bottom: 0;
+}
+
+.ilustration p {
+    margin-top: 0;
+    color: #666666;
+}
+
+.cards {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.cards .first {
+    display: flex;
+}
+
+.cards .second {
+    display: flex;
+}
+
+.card {
+    width: 25%;
+    margin: 5px;
+}
+
+.card img {
+    width: 100%;
+    margin-top: auto;
+    margin-bottom: 10px;
+
+}
+
+.card p {
+    color: black;
+    word-spacing: 0.3rem;
+}
+
+.card span {
+    font-weight: bold;
+}
+
+.ilustration hr {
+    width: 10%;
+    align-self: start;
+}
+
+.ilustration .larry {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.video {
+    text-align: center;
+}
+
+/************** Asides Styles **************/
+aside {
+    width: 210px;
+    float: right;
+}
+
+aside img {
+    width: 30%;
+    float: left;
+    margin-right: 10px;
+
+}
+
+
+.editor-pick {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    border-bottom: darkgrey 1px solid;
+}
+
+.recommend {
+    font-size: 15px;
+    margin: auto;
+}
+
+.recommend p {
+    float: right;
+    display: block;
+}
+
+.recommendation {
+    height: 80px;
 }
