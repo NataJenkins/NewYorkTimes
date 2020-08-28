@@ -307,11 +307,13 @@ aside img {
   width: 1200px;
   margin-top: 30px;
   border-bottom: solid 1px rgb(226, 226, 226);
+  border-top: solid 2px rgb(226, 226, 226);
 }
 
 .sections img {
   margin-left: 100px;
   margin-bottom: 20px;
+  margin-top: 10px
 }
 
 .section-separation {
