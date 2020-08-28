@@ -32,6 +32,10 @@ button {
   padding-right: 50px;
 }
 
+a .icon {
+  padding: 5px;
+}
+
 .navbar .icon {
   padding-top: 15px;
   padding-right: 10px;
@@ -45,6 +49,9 @@ button {
 
 header {
   margin-top: 70px;
+  width: 75%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 h1 {
@@ -62,7 +69,7 @@ header span {
 }
 
 header img {
-  width: 75%;
+  width: 100%;
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -90,10 +97,6 @@ figcaption {
 .date-social {
   display: flex;
   justify-content: space-between;
-}
-
-a .icon {
-  padding: 5px;
 }
 
 /************** Article Styles **************/
@@ -129,7 +132,7 @@ a .icon {
 
 .ilustration p {
   margin-top: 0;
-  color: #666666;
+  color: #666;
 }
 
 .ilustration .cards {
@@ -147,6 +150,16 @@ a .icon {
 .ilustration .card {
   width: 25%;
   margin: 5px;
+}
+
+aside img {
+  width: 30%;
+  float: left;
+  margin-right: 10px;
+}
+
+article img {
+  width: 50%;
 }
 
 .card img {
@@ -180,29 +193,34 @@ a .icon {
   width: 600px;
   margin-right: auto;
   margin-left: auto;
+  border: none;
 }
 
-.video figcaption {
+.video p {
   width: 550px;
   text-align: left;
+  margin-top: 0;
+  margin-left: 20px;
 }
 
 .video span {
-  color: #666666;
+  color: #666;
   font-size: 15px;
 }
 
-article img {
-  width: 50%;
+.article figcaption {
+  color: #666;
 }
 
-.article figcaption {
-  color: #666666;
+.article .description {
+  color: #666;
+  font-size: 12px;
+  margin-top: 0;
 }
 
 .version p {
   font-size: 12px;
-  color: #666666;
+  color: #666;
   font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -211,12 +229,6 @@ aside {
   width: 210px;
   float: right;
   margin-right: 100px;
-}
-
-aside img {
-  width: 30%;
-  float: left;
-  margin-right: 10px;
 }
 
 .editor-pick {
@@ -268,83 +280,21 @@ aside img {
   margin: 10px;
 }
 
-.card img {
-  margin-bottom: 0px;
+.sections img {
+  margin-left: 100px;
+  margin-bottom: 20px;
+  margin-top: 10px;
+}
+
+.suggestions .card img {
+  margin-bottom: 0;
 }
 
 .card figcaption {
   font-size: 10px;
-  color: #666666;
-  margin-top: 0px;
+  color: #666;
+  margin-top: 0;
   text-align: right;
-}
-
-.card p {
-  margin-top: 10px;
-  margin-bottom: 10px;
-}
-
-.card .date {
-  font-family: Arial, Helvetica, sans-serif;
-  color: #666666;
-  font-size: 13px;
-}
-
-.most-popular {
-  width: 300px;
-  margin-left: 20px;
-  margin-right: 100px;
-}
-
-.most-popular p {
-  border-bottom: solid 1px rgb(226, 226, 226);
-  padding-bottom: 12px;
-}
-
-.sections {
-  margin-left: auto;
-  margin-right: auto;
-  width: 1200px;
-  margin-top: 30px;
-  border-bottom: solid 1px rgb(226, 226, 226);
-  border-top: solid 2px rgb(226, 226, 226);
-}
-
-.sections img {
-  margin-left: 100px;
-  margin-bottom: 20px;
-  margin-top: 10px
-}
-
-.section-separation {
-  display: flex;
-  margin-left: 100px;
-  margin-right: 100px;
-  justify-content: space-between;
-}
-
-.section p {
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 14px;
-  margin: 5px;
-}
-
-.section .section-name {
-  font-weight: bold;
-  margin-bottom: 10px;
-}
-
-.sub-section {
-  border-left: solid 1px rgb(226, 226, 226);
-}
-
-.sub-sections p {
-  font-weight: bold;
-  padding-bottom: 10px;
-}
-
-.sub-types {
-  border-bottom: solid 1px rgb(226, 226, 226);
 }
 
 .sub-types p {
@@ -356,6 +306,69 @@ aside img {
   font-size: 11px;
   padding-bottom: 10px;
 }
+
+.sub-sections p {
+  font-weight: bold;
+  padding-bottom: 10px;
+}
+
+.section p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  margin: 5px;
+}
+
+.most-popular p {
+  border-bottom: solid 1px rgb(226, 226, 226);
+  padding-bottom: 12px;
+}
+
+.suggestions .card p {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.card .date {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #666;
+  font-size: 13px;
+}
+
+.most-popular {
+  width: 300px;
+  margin-left: 20px;
+  margin-right: 100px;
+}
+
+.sections {
+  margin-left: auto;
+  margin-right: auto;
+  width: 1200px;
+  margin-top: 30px;
+  border-bottom: solid 1px rgb(226, 226, 226);
+  border-top: solid 2px rgb(226, 226, 226);
+}
+
+.section-separation {
+  display: flex;
+  margin-left: 100px;
+  margin-right: 100px;
+  justify-content: space-between;
+}
+
+.section .section-name {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.sub-section {
+  border-left: solid 1px rgb(226, 226, 226);
+}
+
+.sub-types {
+  border-bottom: solid 1px rgb(226, 226, 226);
+}
+
 
 /************** Footer Styles **************/
 footer ul {
