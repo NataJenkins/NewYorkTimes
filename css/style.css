@@ -1,216 +1,375 @@
 * {
-    background-color: white;
+  background-color: white;
 }
 
 button {
-    background-color: rgb(86, 123, 149);
-    color: white;
-    border-radius: 3px;
-    border-style: solid;
-    border-color: rgb(50, 104, 145);
+  background-color: rgb(86, 123, 149);
+  color: white;
+  border-radius: 3px;
+  border-style: solid;
+  border-color: rgb(50, 104, 145);
 }
 
 /************** Navbar Styles **************/
 .navbar {
-    display: flex;
-    border-bottom: 1px solid #E2E2E2;
-    justify-content: space-between;
-    align-items: center;
-    position: fixed;
-    width: 100%;
-    top: 0;
-    padding: 0 20px 0 10px;
-    height: 45px;
-
+  display: flex;
+  border-bottom: 1px solid #e2e2e2;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  padding: 0 20px 0 10px;
+  height: 45px;
 }
 
 .navbar .left {
-    display: flex;
+  display: flex;
 }
 
 .navbar .right {
-    display: flex;
-    padding-right: 50px;
+  display: flex;
+  padding-right: 50px;
 }
 
 .navbar .icon {
-    padding-top: 15px;
-    padding-right: 10px;
+  padding-top: 15px;
+  padding-right: 10px;
 }
 
 .navbar button {
-    margin-right: 5px;
+  margin-right: 5px;
 }
 
 /************** Header Styles **************/
 
 header {
-    margin-top: 70px;
+  margin-top: 70px;
 }
 
 h1 {
-    width: 600px;
-    margin-left: auto;
-    margin-right: auto;
-    font-family: nyt-cheltenham, georgia, times new roman, times, serif;
-    font-style: italic;
-    font-size: 2.5rem;
-    line-height: 3rem;
+  width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: nyt-cheltenham, georgia, times new roman, times, serif;
+  font-style: italic;
+  font-size: 2.5rem;
+  line-height: 3rem;
 }
 
 header span {
-    color: slategray;
+  color: slategray;
 }
 
 header img {
-    width: 75%;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+  width: 75%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 figcaption {
-    margin-left: auto;
-    margin-right: auto;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .author {
-    font-weight: bold;
-    color: black;
+  font-weight: bold;
+  color: black;
 }
 
 .author-social {
-    font-family: Helvetica, Arial, sans-serif;
-    margin-top: 50px;
-    margin-left: auto;
-    margin-bottom: 20px;
-    margin-right: auto;
-    width: 33%;
+  font-family: Helvetica, Arial, sans-serif;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-bottom: 20px;
+  margin-right: auto;
+  width: 33%;
 }
 
 .date-social {
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 }
 
 a .icon {
-    padding: 5px;
+  padding: 5px;
 }
 
 /************** Article Styles **************/
 
 .article {
-    margin-left: auto;
-    margin-right: auto;
-    width: 600px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+  margin-left: auto;
+  margin-right: auto;
+  width: 600px;
+  font-family: Georgia, "Times New Roman", Times, serif;
 }
 
 .article p {
-    font-size: 20px;
-    color: #333;
-    word-spacing: 0.3rem;
+  font-size: 20px;
+  color: #333;
+  word-spacing: 0.3rem;
 }
 
 .subscribe {
-    text-align: center;
-    font-family: Helvetica, Arial, sans-serif;
+  text-align: center;
+  font-family: Helvetica, Arial, sans-serif;
 }
 
 .ilustration {
-    width: 800px;
-    margin-right: auto;
-    margin-left: auto;
+  width: 800px;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .ilustration h3 {
-    margin-top: 40px;
-    margin-bottom: 0;
+  margin-top: 40px;
+  margin-bottom: 0;
 }
 
 .ilustration p {
-    margin-top: 0;
-    color: #666666;
+  margin-top: 0;
+  color: #666666;
 }
 
-.cards {
-    font-family: Arial, Helvetica, sans-serif;
+.ilustration .cards {
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .cards .first {
-    display: flex;
+  display: flex;
 }
 
 .cards .second {
-    display: flex;
+  display: flex;
 }
 
-.card {
-    width: 25%;
-    margin: 5px;
+.ilustration .card {
+  width: 25%;
+  margin: 5px;
 }
 
 .card img {
-    width: 100%;
-    margin-top: auto;
-    margin-bottom: 10px;
-
+  width: 100%;
+  margin-top: auto;
+  margin-bottom: 10px;
 }
 
 .card p {
-    color: black;
-    word-spacing: 0.3rem;
+  color: black;
+  word-spacing: 0.3rem;
 }
 
 .card span {
-    font-weight: bold;
+  font-weight: bold;
 }
 
 .ilustration hr {
-    width: 10%;
-    align-self: start;
+  width: 10%;
+  align-self: start;
 }
 
 .ilustration .larry {
-    font-family: Arial, Helvetica, sans-serif;
-    margin-top: 50px;
-    margin-bottom: 50px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
 
 .video {
-    text-align: center;
+  text-align: center;
+  width: 600px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.video figcaption {
+  width: 550px;
+  text-align: left;
+}
+
+.video span {
+  color: #666666;
+  font-size: 15px;
+}
+
+article img {
+  width: 50%;
+}
+
+.article figcaption {
+  color: #666666;
+}
+
+.version p {
+  font-size: 12px;
+  color: #666666;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 /************** Asides Styles **************/
 aside {
-    width: 210px;
-    float: right;
+  width: 210px;
+  float: right;
+  margin-right: 100px;
 }
 
 aside img {
-    width: 30%;
-    float: left;
-    margin-right: 10px;
-
+  width: 30%;
+  float: left;
+  margin-right: 10px;
 }
 
-
 .editor-pick {
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: bold;
-    border-bottom: darkgrey 1px solid;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  border-bottom: darkgrey 1px solid;
 }
 
 .recommend {
-    font-size: 15px;
-    margin: auto;
+  font-size: 15px;
+  margin: auto;
 }
 
 .recommend p {
-    float: right;
-    display: block;
+  float: right;
+  display: block;
 }
 
 .recommendation {
-    height: 80px;
+  height: 80px;
+}
+
+/************** More Styles **************/
+.suggestions {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  width: 1200px;
+}
+
+.more {
+  width: 800px;
+  text-align: left;
+  margin-left: 100px;
+}
+
+.suggestions hr {
+  margin-top: 30px;
+  border: 1px solid black;
+}
+
+.more-section {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+
+.more .card {
+  width: 30%;
+  margin: 10px;
+}
+
+.card img {
+  margin-bottom: 0px;
+}
+
+.card figcaption {
+  font-size: 10px;
+  color: #666666;
+  margin-top: 0px;
+  text-align: right;
+}
+
+.card p {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.card .date {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #666666;
+  font-size: 13px;
+}
+
+.most-popular {
+  width: 300px;
+  margin-left: 20px;
+  margin-right: 100px;
+}
+
+.most-popular p {
+  border-bottom: solid 1px rgb(226, 226, 226);
+  padding-bottom: 12px;
+}
+
+.sections {
+  margin-left: auto;
+  margin-right: auto;
+  width: 1200px;
+  margin-top: 30px;
+  border-bottom: solid 1px rgb(226, 226, 226);
+}
+
+.sections img {
+  margin-left: 100px;
+  margin-bottom: 20px;
+}
+
+.section-separation {
+  display: flex;
+  margin-left: 100px;
+  margin-right: 100px;
+  justify-content: space-between;
+}
+
+.section p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  margin: 5px;
+}
+
+.section .section-name {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.sub-section {
+  border-left: solid 1px rgb(226, 226, 226);
+}
+
+.sub-sections p {
+  font-weight: bold;
+  padding-bottom: 10px;
+}
+
+.sub-types {
+  border-bottom: solid 1px rgb(226, 226, 226);
+}
+
+.sub-types p {
+  font-size: 11px;
+  padding-bottom: 10px;
+}
+
+.app-types p {
+  font-size: 11px;
+  padding-bottom: 10px;
+}
+
+/************** Footer Styles **************/
+footer ul {
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+}
+
+footer li {
+  padding: 10px 7px;
+  font-weight: 400;
+}
+
+footer li a {
+  color: #666;
+  font-family: nyt-franklin, helvetica, arial, sans-serif;
+  padding: 10px 0;
+  font-size: 11px;
 }
