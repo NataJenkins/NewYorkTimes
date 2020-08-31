@@ -32,8 +32,7 @@ footer li a {
 
 .navbar .left {
   display: flex;
-  background-color: none;
-  padding-bottom: 0px;
+  padding-bottom: 0;
 }
 
 .navbar .right {
@@ -43,6 +42,20 @@ footer li a {
 
 a .icon {
   padding: 5px;
+}
+
+.sub-sections a {
+  font-weight: bold;
+  padding-bottom: 10px;
+}
+
+.section a {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  margin: 5px;
+  display: block;
+  text-decoration: none;
+  color: black;
 }
 
 .navbar a {
@@ -55,7 +68,6 @@ a .icon {
   font-weight: bold;
   text-decoration: none;
   color: black;
-  background-color: none;
 }
 
 .navbar a:visited {
@@ -343,24 +355,10 @@ aside {
   padding-bottom: 10px;
 }
 
-.sub-sections a {
-  font-weight: bold;
-  padding-bottom: 10px;
-}
-
 .section p {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 14px;
   margin: 5px;
-}
-
-.section a {
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 14px;
-  margin: 5px;
-  display: block;
-  text-decoration: none;
-  color: black;
 }
 
 .section a:visited {
