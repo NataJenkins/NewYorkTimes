@@ -27,11 +27,13 @@ footer li a {
   width: 100%;
   top: 0;
   padding: 0 20px 0 10px;
-  height: 45px;
+  height: 48px;
 }
 
 .navbar .left {
   display: flex;
+  background-color: none;
+  padding-bottom: 0px;
 }
 
 .navbar .right {
@@ -52,6 +54,12 @@ a .icon {
   font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
   font-weight: bold;
   text-decoration: none;
+  color: black;
+  background-color: none;
+}
+
+.navbar a:visited {
+  color: black;
 }
 
 .navbar .icon {
