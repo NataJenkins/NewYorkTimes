@@ -1,0 +1,427 @@
+.btn {
+  background-color: rgb(86, 123, 149);
+  color: white;
+  border-radius: 3px;
+  border-style: solid;
+  border-color: rgb(50, 104, 145);
+}
+
+footer li a {
+  color: #666;
+  font-family: nyt-franklin, helvetica, arial, sans-serif;
+  padding: 10px 0;
+  font-size: 11px;
+}
+
+/************** Navbar Styles **************/
+.navbar {
+  display: flex;
+  border-bottom: 1px solid #e2e2e2;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  padding: 0 20px 0 10px;
+  height: 50px;
+  background-color: white;
+}
+
+.navbar .left {
+  display: flex;
+  padding-bottom: 0;
+}
+
+.navbar .right {
+  display: flex;
+  padding-right: 50px;
+  background: none;
+}
+
+a .icon {
+  padding: 5px;
+}
+
+.sub-sections a {
+  font-weight: bold;
+  padding-bottom: 10px;
+}
+
+.section a {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  margin: 5px;
+  display: block;
+  text-decoration: none;
+  color: black;
+}
+
+.navbar a {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0;
+  margin-inline-end: 0;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  font-weight: bold;
+  text-decoration: none;
+  color: black;
+}
+
+.navbar a:visited {
+  color: black;
+}
+
+.navbar .icon {
+  padding-top: 15px;
+  padding-right: 10px;
+}
+
+.navbar .btn {
+  margin-right: 5px;
+}
+
+.icon-btn {
+  border: none;
+  padding-bottom: 12px;
+}
+
+/************** Header Styles **************/
+
+header {
+  margin-top: 70px;
+  width: 75%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h1 {
+  width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: nyt-cheltenham, georgia, times new roman, times, serif;
+  font-style: italic;
+  font-size: 2.5rem;
+  line-height: 3rem;
+}
+
+header span {
+  color: slategray;
+}
+
+header img {
+  width: 100%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+figcaption {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.author {
+  font-weight: bold;
+  color: black;
+}
+
+.author-social {
+  font-family: Helvetica, Arial, sans-serif;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-bottom: 20px;
+  margin-right: auto;
+  width: 33%;
+}
+
+.date-social {
+  display: flex;
+  justify-content: space-between;
+}
+
+/************** Article Styles **************/
+
+.article {
+  margin-left: auto;
+  margin-right: auto;
+  width: 600px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.article p {
+  font-size: 20px;
+  color: #333;
+  word-spacing: 0.3rem;
+}
+
+.subscribe {
+  text-align: center;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+.ilustration {
+  width: 800px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.ilustration h3 {
+  margin-top: 40px;
+  margin-bottom: 0;
+}
+
+.ilustration p {
+  margin-top: 0;
+  color: #666;
+}
+
+.ilustration .cards {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.cards .first {
+  display: flex;
+}
+
+.cards .second {
+  display: flex;
+}
+
+.ilustration .card {
+  width: 25%;
+  margin: 5px;
+}
+
+.aside-gird {
+  grid-template-columns: 30% 70%;
+  grid-template-rows: 75px 75px 75px;
+}
+
+aside img {
+  width: 30%;
+  float: left;
+  margin-right: 10px;
+}
+
+article img {
+  width: 50%;
+}
+
+.card img {
+  width: 100%;
+  margin-top: auto;
+  margin-bottom: 10px;
+}
+
+.card p {
+  color: black;
+  word-spacing: 0.3rem;
+}
+
+.card span {
+  font-weight: bold;
+}
+
+.ilustration hr {
+  width: 10%;
+  align-self: start;
+}
+
+.ilustration .larry {
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.video {
+  text-align: center;
+  width: 600px;
+  margin-right: auto;
+  margin-left: auto;
+  border: none;
+}
+
+.video p {
+  width: 550px;
+  text-align: left;
+  margin-top: 0;
+  margin-left: 20px;
+}
+
+.video span {
+  color: #666;
+  font-size: 15px;
+}
+
+.article figcaption {
+  color: #666;
+}
+
+.article .description {
+  color: #666;
+  font-size: 12px;
+  margin-top: 0;
+}
+
+.version p {
+  font-size: 12px;
+  color: #666;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/************** Asides Styles **************/
+aside {
+  width: 210px;
+  float: right;
+  margin-right: 100px;
+}
+
+.editor-pick {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  border-bottom: darkgrey 1px solid;
+}
+
+.recommend {
+  font-size: 15px;
+  margin: auto;
+}
+
+.recommend p {
+  float: right;
+  display: block;
+}
+
+.recommendation {
+  height: 80px;
+}
+
+/************** More Styles **************/
+.suggestions {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  width: 1200px;
+}
+
+.more {
+  width: 800px;
+  text-align: left;
+  margin-left: 100px;
+}
+
+.suggestions hr {
+  margin-top: 30px;
+  border: 1px solid black;
+}
+
+.more-section {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+
+.more .card {
+  width: 30%;
+  margin: 10px;
+}
+
+.sections img {
+  margin-left: 100px;
+  margin-bottom: 20px;
+  margin-top: 10px;
+}
+
+.suggestions .card img {
+  margin-bottom: 0;
+}
+
+.suggestions .card .figcaption {
+  font-size: 10px;
+  color: #666;
+  text-align: right;
+  margin-top: 0;
+}
+
+.sub-types p {
+  font-size: 11px;
+  padding-bottom: 10px;
+}
+
+.app-types p {
+  font-size: 11px;
+  padding-bottom: 10px;
+}
+
+.section p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  margin: 5px;
+}
+
+.section a:visited {
+  color: black;
+}
+
+.most-popular p {
+  border-bottom: solid 1px rgb(226, 226, 226);
+  padding-bottom: 12px;
+}
+
+.suggestions .card p {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.card .date {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #666;
+  font-size: 13px;
+}
+
+.most-popular {
+  width: 300px;
+  margin-left: 20px;
+  margin-right: 100px;
+}
+
+.sections {
+  margin-left: auto;
+  margin-right: auto;
+  width: 1200px;
+  margin-top: 30px;
+  border-bottom: solid 1px rgb(226, 226, 226);
+  border-top: solid 2px rgb(226, 226, 226);
+}
+
+.section-separation {
+  display: flex;
+  margin-left: 100px;
+  margin-right: 100px;
+  justify-content: space-between;
+}
+
+.section .section-name {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.sub-section {
+  border-left: solid 1px rgb(226, 226, 226);
+}
+
+.sub-types {
+  border-bottom: solid 1px rgb(226, 226, 226);
+}
+
+/************** Footer Styles **************/
+footer ul {
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+}
+
+footer li {
+  padding: 10px 7px;
+  font-weight: 400;
+}
